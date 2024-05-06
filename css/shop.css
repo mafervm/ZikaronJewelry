@@ -28,13 +28,13 @@
     overflow: hidden;
   }
   .banner {
-    width: 100%;
+    width: 1400px;
     height: 52px;
     background: rgba(239,234,224,1);
     opacity: 1;
     position: absolute;
     top: 21px;
-    left: 70px;
+    left: 20px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -379,7 +379,7 @@
     background: rgba(231,223,209,1);
     opacity: 1;
     position: absolute;
-    top: 435px;
+    top: 411px;
     left: 956px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -391,7 +391,7 @@
     width: 129px;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 594px;
+    top: 570px;
     left: 985px;
     font-family: Inter;
     font-weight: Regular;
@@ -415,7 +415,7 @@
     width: 223px;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 458px;
+    top: 434px;
     left: 985px;
     font-family: Mulish;
     font-weight: SemiBold Italic;
@@ -461,7 +461,7 @@
     background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
-    top: 588px;
+    top: 564px;
     left: 1139px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -478,7 +478,7 @@
     width: 104px;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 643px;
+    top: 619px;
     left: 985px;
     font-family: Inter;
     font-weight: Regular;
@@ -492,7 +492,7 @@
     background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
-    top: 637px;
+    top: 613px;
     left: 1139px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -509,7 +509,7 @@
     width: 111px;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 692px;
+    top: 668px;
     left: 985px;
     font-family: Inter;
     font-weight: Regular;
@@ -523,7 +523,7 @@
     background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
-    top: 686px;
+    top: 662px;
     left: 1139px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -540,7 +540,7 @@
     width: 72px;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 510px;
+    top: 486px;
     left: 985px;
     font-family: Inter;
     font-weight: Regular;
@@ -554,7 +554,7 @@
     background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
-    top: 504px;
+    top: 489px;
     left: 1139px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -758,7 +758,7 @@
     background: rgba(143,139,139,1);
     opacity: 1;
     position: absolute;
-    top: 740px;
+    top: 716px;
     left: 1100px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -786,10 +786,52 @@
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 825px;
+    top: 801px;
     left: 1111px;
     overflow: hidden;
     background-color: transparent;
     border: none;
     cursor: pointer;
   }
+  .upload_datos {
+    width: 257px;
+    height: 229px;
+    background: rgba(172,163,144,1);
+    opacity: 1;
+    position: absolute;
+    top: 411px;
+    left: 651px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+
+  .imagen {
+    width: 216px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 439px;
+    left: 672px;
+    font-family: Mulish;
+    font-weight: ExtraBold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .upload {
+    width: 130px;
+    height: 130px;
+    background: url("../images/upload.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.3;
+    position: absolute;
+    top: 480px;
+    left: 715px;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+}
